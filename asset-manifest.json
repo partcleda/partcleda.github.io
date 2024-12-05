@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/partcleda.github.io/static/css/main.84096e4c.css",
-    "main.js": "/partcleda.github.io/static/js/main.3c588f96.js",
-    "static/js/453.a13f7d62.chunk.js": "/partcleda.github.io/static/js/453.a13f7d62.chunk.js",
-    "static/media/logo.png": "/partcleda.github.io/static/media/logo.05385140d735e295fbf4.png",
-    "index.html": "/partcleda.github.io/index.html",
-    "main.84096e4c.css.map": "/partcleda.github.io/static/css/main.84096e4c.css.map",
-    "main.3c588f96.js.map": "/partcleda.github.io/static/js/main.3c588f96.js.map",
-    "453.a13f7d62.chunk.js.map": "/partcleda.github.io/static/js/453.a13f7d62.chunk.js.map"
+    "main.css": "/static/css/main.84096e4c.css",
+    "main.js": "/static/js/main.6b1bbc09.js",
+    "static/js/453.a13f7d62.chunk.js": "/static/js/453.a13f7d62.chunk.js",
+    "static/media/logo.png": "/static/media/logo.05385140d735e295fbf4.png",
+    "index.html": "/index.html",
+    "main.84096e4c.css.map": "/static/css/main.84096e4c.css.map",
+    "main.6b1bbc09.js.map": "/static/js/main.6b1bbc09.js.map",
+    "453.a13f7d62.chunk.js.map": "/static/js/453.a13f7d62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84096e4c.css",
-    "static/js/main.3c588f96.js"
+    "static/js/main.6b1bbc09.js"
   ]
 }
