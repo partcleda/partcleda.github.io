@@ -4,7 +4,6 @@ import logo from "./assets/logo.png"; // Replace with your logo path
 
 function App() {
   return (
-    <BrowserRouter basename="/partcleda.github.io">
     <div className="landing-page">
       <header className="header">
         <img src={logo} alt="Partcl Logo" className="logo" />
@@ -20,9 +19,7 @@ function App() {
         <p>© 2025 Partcl, Inc.</p>
       </footer>
     </div>
-    </BrowserRouter>
   );
-  
 }
 
 export default App;
