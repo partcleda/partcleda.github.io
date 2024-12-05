@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/partcleda.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/partcleda.github.io/static/js/main.dc5f2151.js",
+    "static/js/453.a13f7d62.chunk.js": "/partcleda.github.io/static/js/453.a13f7d62.chunk.js",
+    "static/media/logo.svg": "/partcleda.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/partcleda.github.io/index.html",
+    "main.f855e6bc.css.map": "/partcleda.github.io/static/css/main.f855e6bc.css.map",
+    "main.dc5f2151.js.map": "/partcleda.github.io/static/js/main.dc5f2151.js.map",
+    "453.a13f7d62.chunk.js.map": "/partcleda.github.io/static/js/453.a13f7d62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.dc5f2151.js"
+  ]
+}
