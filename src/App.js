@@ -20,13 +20,13 @@ function App() {
           Revolutionizing electronic design automation
         </p>
         <button className="mailto-button" onClick={handleMailTo}>
-          Email Us
+          Contact Us
         </button>
       </main>
       <footer className="footer">
         <p>© 2025 Partcl, Inc.</p>
-        <a href="mailto:contact@partcl.com" className="footer-email">
-          contact@partcl.com
+        <a href="mailto:contact@partcleda.com" className="footer-email">
+          contact@partcleda.com
         </a>
       </footer>
     </div>
