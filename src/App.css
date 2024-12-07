@@ -9,8 +9,9 @@
 body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(45deg, var(--blue-gray), var(--tiffany-blue));
+  background: var(--space-cadet);
   color: var(--antiflash-white);
+  overflow: hidden;
 }
 
 .landing-page {
@@ -43,21 +44,50 @@ body {
 .description {
   font-size: 1.2rem;
   margin-top: 10px;
-  color: var(--space-cadet);
+  color: var(--xanthous);
 }
 
 .email {
   margin-top: 15px;
   font-size: 1rem;
-  color: var(--space-cadet);
+  color: var(--tiffany-blue);
 }
 
 .footer {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 0;
+  width: 100%; /* Ensure footer spans the entire width */
+  display: flex;
+  justify-content: space-between; /* Position child elements to opposite ends */
+  align-items: center;
+  padding: 0 20px;
 }
 
-.footer p {
-  margin: 0;
+.footer-email {
+  color: var(--tiffany-blue);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 40px;
+}
+
+.footer-email:hover {
+  color: var(--xanthous); /* Change email color on hover */
+  text-decoration: underline; /* Underline the email text on hover */
+}
+
+
+.mailto-button {
+  padding: 10px 20px;
+  background-color: var(--tiffany-blue);
+  color: var(--space-cadet);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mailto-button:hover {
+  background-color: var(--blue-gray);
 }
