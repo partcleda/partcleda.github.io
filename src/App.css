@@ -81,6 +81,7 @@ body {
   padding: 10px 20px;
   background-color: var(--tiffany-blue);
   color: var(--space-cadet);
+  font-family: "Courier New", Courier, monospace;
   border: none;
   border-radius: 5px;
   font-size: 1rem;

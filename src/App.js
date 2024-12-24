@@ -4,7 +4,7 @@ import logo from "./assets/logo_dark.png"; // Replace with your logo path
 
 function App() {
   const handleMailTo = () => {
-    const email = "contact@partcl.com";
+    const email = "contact@partcleda.com";
     const subject = "Hello Partcl!";
     const body = "I’m reaching out regarding...";
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
