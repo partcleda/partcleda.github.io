@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./assets/logo.png"; // Replace with your logo path
+import logo from "./assets/logo_.png"; // Replace with your logo path
 
 function App() {
   const handleMailTo = () => {
