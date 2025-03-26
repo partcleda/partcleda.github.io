@@ -1,4 +1,4 @@
-import { onCLS, onINP, onLCP } from 'web-vitals';
+// import { onCLS, onINP, onLCP } from 'web-vitals';
 
 
 // function sendToGoogleAnalytics({ name, delta, value, id }) {
