@@ -34,9 +34,9 @@ function App() {
 
         <p>We are able to run STA on 
           <ul>
-            <li>a 100k gate netlist in 400 milliseconds</li>
-            <li>a 1M gate netlist in 1 second</li>
-            <li>a 7M gate netlist in 3 seconds</li>
+            <li>a <strong>100k gate netlist</strong> in <strong>400 milliseconds</strong></li>
+            <li>a <strong>1M gate netlist</strong> in <strong>1 second</strong></li>
+            <li>a <strong>7M gate netlist</strong> in <strong>3 seconds</strong></li>
           </ul>
         </p>
 
@@ -44,7 +44,7 @@ function App() {
         <hr />
         <h2 id="demo">Try Boson</h2>
         <p>
-          Boson is currently in beta. Sign up to get early access.
+          Boson is currently in beta. Contact us to get early access.
         </p>
         <p>
           <button className="mailto-button" onClick={handleMailTo} style={{ display: 'block', margin: '0 auto' }}>
@@ -64,16 +64,19 @@ function App() {
           <dt>I am an academic. Can I use Boson?</dt>
           <dd>Yes, we offer a heavily discounted tier for academics. Email us at <a href="mailto:contact@partcl.com">contact@partcl.com</a></dd>
 
-          <dt>How can I work for Partcl?</dt>
-          <dd>Email us at <a href="mailto:contact@partcl.com">contact@partcl.com</a>.</dd>
+          <dt>What benchmarks did you use?</dt>
+          <dd>Our published benchmarks use an open source RISC-V core <a href="https://github.com/YosysHQ/picorv32">picorv32</a> and partitions of <a href="https://github.com/nvdla/hw">nvdla</a> (a and c). </dd>
 
-          <dt>How can I invest in Partcl?</dt>
-          <dd>Email us at <a href="mailto:contact@partcl.com">contact@partcl.com</a>.</dd>
+          <dt>What process nodes do you support?</dt>
+          <dd>We support 7nm and above with more advanced nodes coming soon.</dd>
+
+          <dt>What's next?</dt>
+          <dd>We are currently working on an integrated placement and resizing tool for rapid optimization.</dd>
 
           <dt>What's the goal of Partcl?</dt>
-          <dd>To democratize chip design. We want to make it fast and easy for everyone to design chips.</dd>
+          <dd>We want chip designers to benefit from the AI revolution. We enable this
+            with fast, GPU accelerated EDA tools and models trained to efficiently sample the design space. </dd>
         </dl>
-
 
         <hr />
         <h2 id="about">About</h2>
