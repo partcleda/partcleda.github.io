@@ -32,7 +32,13 @@ function App() {
         <h2 id="sta">Static Timing Analysis</h2>
         <p>We built Boson, a static timing analysis engine that achieves 700x run time improvements over legacy timing analysis tools.</p>
 
-        <p>We are able to run STA on a 100k gate netlist in 400 milliseconds, a 1M gate netlist in 1 second, and a 7M gate netlist in 3 seconds.</p>
+        <p>We are able to run STA on 
+          <ul>
+            <li>a 100k gate netlist in 400 milliseconds</li>
+            <li>a 1M gate netlist in 1 second</li>
+            <li>a 7M gate netlist in 3 seconds</li>
+          </ul>
+        </p>
 
 
         <hr />
