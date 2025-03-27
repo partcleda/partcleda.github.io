@@ -4,6 +4,7 @@
   --tiffany-blue: #97d8c4ff;
   --antiflash-white: #eff2f1ff;
   --xanthous: #f4b942ff;
+  --base-font-size: 18px; /* Increased base font size */
 }
 
 body {
@@ -11,20 +12,36 @@ body {
   font-family: "Courier New", Courier, monospace;
   background: var(--space-cadet);
   color: var(--antiflash-white);
-  overflow: hidden;
+  overflow-y: auto; /* Enable vertical scrolling */
+  font-size: var(--base-font-size); /* Set base font size */
+  line-height: 1.5; /* Improved line height for readability */
 }
 
-.landing-page {
+.landing {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 20px;
+  min-height: 100dvh;
+  text-align: center;
+}
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Changed to start content from the top */
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px 20px 0; /* Remove bottom padding */
+  max-width: 900px; /* Add max-width to center content better */
+  margin: 0 auto; /* Center the container */
+  overflow-y: auto; /* Enable scrolling */
 }
 
 .header {
   text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -32,63 +49,159 @@ body {
   margin-bottom: 20px;
 }
 
-.title {
-  font-size: 2rem;
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem; /* Slightly larger navigation links */
+}
+
+.separator {
   color: var(--antiflash-white);
+  margin: 0 5px;
+}
+
+.content-section {
+  width: 100%;
+  text-align: left;
+  line-height: 1.6;
+  flex: 1; /* Allow content section to grow */
+  display: flex;
+  flex-direction: column;
+}
+
+.ops-section {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 2.2rem; /* Increased title size */
+  color: var(--antiflash-white);
+}
+
+h2 {
+  font-size: 1.8rem; /* Larger heading size */
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
 }
 
 .content {
   text-align: center;
+  width: 100%;
+  margin: 30px 0;
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 1.4rem; /* Larger description text */
   margin-top: 10px;
   color: var(--antiflash-white);
 }
 
 .email {
   margin-top: 15px;
-  font-size: 1rem;
+  font-size: 1.1rem; /* Slightly larger email text */
   color: var(--antiflash-white);
 }
 
+/* FAQ styling */
+.faqtable {
+  margin: 20px 0;
+}
+
+.faqtable dt {
+  font-weight: bold;
+  margin-top: 20px; /* More space above FAQ questions */
+  font-size: 1.2rem; /* Larger FAQ questions */
+}
+
+.faqtable dd {
+  margin-left: 20px;
+  margin-bottom: 20px; /* More space below FAQ answers */
+  font-size: var(--base-font-size);
+}
+
+.faqtable ul {
+  padding-left: 20px;
+}
+
+/* Fix the footer to be positioned at the bottom but not fixed */
 .footer {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%; /* Ensure footer spans the entire width */
+  width: 100%;
   display: flex;
-  justify-content: space-between; /* Position child elements to opposite ends */
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 20px 0;
+  margin-top: auto; /* Push footer to bottom of parent */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1rem; /* Slightly larger footer text */
+}
+
+.footer p {
+  margin: 0;
+  text-align: left;
 }
 
 .footer-email {
-  color: var(--antiflash-white);
+  /* color: var(--antiflash-white); */
   text-decoration: none;
-  font-size: 0.9rem;
-  margin-right: 40px;
+  font-size: 1rem;
+  text-align: right;
 }
 
-.footer-email:hover {
-  color: var(--xanthous); /* Change email color on hover */
-  text-decoration: underline; /* Underline the email text on hover */
-}
-
+/* .footer-email:hover {
+  color: var(--xanthous);
+  text-decoration: underline;
+} */
 
 .mailto-button {
-  padding: 10px 20px;
+  padding: 12px 24px; /* Larger button padding */
   background-color: var(--antiflash-white);
   color: var(--space-cadet);
   font-family: "Courier New", Courier, monospace;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.1rem; /* Larger button text */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .mailto-button:hover {
   background-color: var(--blue-gray);
+}
+
+/* General link styling */
+a {
+  color: var(--xanthous);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 30px 0; /* Increased margin for better spacing */
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  :root {
+    --base-font-size: 16px; /* Slightly smaller on mobile */
+  }
+  
+  .landing-page {
+    padding: 15px;
+  }
+  
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
